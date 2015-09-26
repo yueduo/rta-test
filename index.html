@@ -13,11 +13,11 @@
     <body>
        
         <div class="container pt20 pb20">
-            <button onclick="play()" class="button">Turn Left</button>
+            <button data-id="left" class="button">Turn Left</button>
 
-            <button onclick="play()" class="button">Turn Right</button>
+            <button class="button">Turn Right</button>
 
-            <button onclick="play()" class="button">Go Straight</button>
+            <button class="button">Go Straight</button>
 
             <button class="button">Roundabout Go Straight</button>
             
@@ -30,5 +30,10 @@
             <button class="button">Hill Start</button>
         </div>
         
+        <div class="hide">
+            <audio id="left" src="asset/left.mp3"></audio>
+            <audio id="right" src="asset/right.mp3"></audio>
+
+        </div>
     </body>
 </html>
